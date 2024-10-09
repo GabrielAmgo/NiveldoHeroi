@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Heroi h = new Heroi("gabriel",1000);
+        h.calcularPremio(h.nome, h.xp);
     }
 }
